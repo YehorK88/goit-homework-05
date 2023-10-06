@@ -527,7 +527,7 @@ header {
   display: flex; 
 }
 
-.form-label{
+.form{
   gap: 24px;
 }
 
@@ -571,7 +571,6 @@ header {
   padding: 8px 24px;
   gap: 16px;
 
-  margin-left: 24px;
   
 }
 
