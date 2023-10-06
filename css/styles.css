@@ -507,3 +507,21 @@ header {
   display: flex;
   align-items: baseline;
 }
+
+.subscribe-button{
+  display: flex;
+  
+  align-items: center;
+}
+
+.subscribe-input{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-form{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
