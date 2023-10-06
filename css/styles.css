@@ -569,12 +569,12 @@ header {
 
 
   padding: 8px 24px;
-  gap: 16px;
-
-  
 }
 
-
+.form-first-svg{
+  margin-left: 16px;
+  fill:#FFFFFF;
+}
 
 .footer-form{
  margin-left: 80px;
@@ -702,7 +702,6 @@ header {
 
 .form-comment{
   margin-bottom: 16px;
-
 }
 
 .form-textarea{
@@ -730,13 +729,11 @@ header {
   margin-bottom: 24px;
 }
 
-
 .checkbox-label{
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99; 
-
 }
 
 .checkbox-label-span{
@@ -751,11 +748,7 @@ header {
   fill: transparent; 
 }
 
-.checkbox-label-span:checked{
-  background-color: #404bbf;
-  border: none;
-  fill: #F4F4FD;
-}
+
 
 .checkbox-privacy-link{
 color:  #4d5ae5; 
@@ -776,7 +769,15 @@ color:  #4d5ae5;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 
-  margin: 24px 95px;
+ 
+  margin-left: 95px;
+  margin-top: 24;
+}
 
+
+.checkbox-input:checked + .checkbox-label .checkbox-label-span{
+  background-color: #404bbf;
+  border: none;
+  fill: #F4F4FD;
 }
 
