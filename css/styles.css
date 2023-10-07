@@ -713,7 +713,7 @@ header {
 
 
 .form-comment{
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .form-textarea{
@@ -748,7 +748,7 @@ letter-spacing: 0.48px;
 
 
 .form-checkbox{
-  
+  margin-bottom: 24px;
 }
 
 .checkbox-label{
